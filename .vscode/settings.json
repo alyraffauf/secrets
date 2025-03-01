@@ -1,0 +1,23 @@
+{
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "nix": {
+        "enableLanguageServer": true,
+        "formatterPath": "alejandra",
+        "serverPath": "nixd",
+        "serverSettings": {
+            "nixd": {
+                "formatting": {
+                    "command": [
+                        "alejandra"
+                    ]
+                }
+            }
+        }
+    },
+    "[markdown]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    }
+}
