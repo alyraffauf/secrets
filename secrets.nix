@@ -12,6 +12,7 @@ let
   ];
   users = [
     "aly_fallarbor"
+    "aly_fortree"
     "aly_lilycove"
     "aly_mauville"
     "aly_petalburg"
@@ -24,9 +25,8 @@ let
   userKeys = builtins.map (user: builtins.readFile ./publicKeys/${user}.pub) users;
   keys = systemKeys ++ userKeys;
 in {
-  "aly/mail/achacega_gmail.age".publicKeys = keys;
-  "aly/mail/alyraffauf_fastmail.age".publicKeys = keys;
-  "aly/rclone/b2.age".publicKeys = keys;
+  "aly/mail/gmail.age".publicKeys = keys;
+  "aly/mail/fastmail.age".publicKeys = keys;
   "aly/rclone/icloud.age".publicKeys = keys;
   "aly/syncthing/fallarbor/cert.age".publicKeys = keys;
   "aly/syncthing/fallarbor/key.age".publicKeys = keys;
@@ -48,14 +48,14 @@ in {
   "cloudflare.age".publicKeys = keys;
   "homepage.age".publicKeys = keys;
   "k3s.age".publicKeys = keys;
-  "lastFM/apiKey.age".publicKeys = keys;
-  "lastFM/secret.age".publicKeys = keys;
+  "lastfm/api.age".publicKeys = keys;
+  "lastfm/secret.age".publicKeys = keys;
   "pds.age".publicKeys = keys;
   "rclone/b2.age".publicKeys = keys;
-  "restic.age".publicKeys = keys;
-  "spotify/clientId.age".publicKeys = keys;
-  "spotify/clientSecret.age".publicKeys = keys;
-  "tailscale/authKeyFile.age".publicKeys = keys;
+  "restic-password.age".publicKeys = keys;
+  "spotify/client-id.age".publicKeys = keys;
+  "spotify/client-secret.age".publicKeys = keys;
+  "tailscale/auth.age".publicKeys = keys;
   "transmission.age".publicKeys = keys;
   "vaultwarden.age".publicKeys = keys;
   "wifi.age".publicKeys = keys;
