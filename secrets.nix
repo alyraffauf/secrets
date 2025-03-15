@@ -55,6 +55,7 @@ in {
   "pds.age".publicKeys = keys;
   "rclone/b2.age".publicKeys = keys;
   "restic-password.age".publicKeys = keys;
+  "slskd.age".publicKeys = keys;
   "spotify/client-id.age".publicKeys = keys;
   "spotify/client-secret.age".publicKeys = keys;
   "tailscale/auth.age".publicKeys = keys;
