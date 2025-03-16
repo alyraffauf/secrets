@@ -14,6 +14,7 @@ let
   users = [
     "aly_fallarbor"
     "aly_fortree"
+    "aly_kyogre"
     "aly_lilycove"
     "aly_mauville"
     "aly_petalburg"
