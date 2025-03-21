@@ -32,6 +32,8 @@ in {
   "aly/mail/fastmail.age".publicKeys = keys;
   "aly/rclone/icloud.age".publicKeys = keys;
   "aly/syncthing/fallarbor/cert.age".publicKeys = keys;
+  "aly/syncthing/fortree/key.age".publicKeys = keys;
+  "aly/syncthing/fortree/cert.age".publicKeys = keys;
   "aly/syncthing/fallarbor/key.age".publicKeys = keys;
   "aly/syncthing/lilycove/cert.age".publicKeys = keys;
   "aly/syncthing/lilycove/key.age".publicKeys = keys;
