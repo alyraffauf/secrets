@@ -2,6 +2,7 @@ let
   hosts = [
     "fallarbor"
     "fortree"
+    "lavaridge"
     "lilycove"
     "mauville"
     "petalburg"
@@ -15,6 +16,7 @@ let
     "aly_fallarbor"
     "aly_fortree"
     "aly_kyogre"
+    "aly_lavaridge"
     "aly_lilycove"
     "aly_mauville"
     "aly_petalburg"
