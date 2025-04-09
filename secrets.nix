@@ -38,6 +38,8 @@ in {
   "aly/syncthing/fortree/key.age".publicKeys = keys;
   "aly/syncthing/fortree/cert.age".publicKeys = keys;
   "aly/syncthing/fallarbor/key.age".publicKeys = keys;
+  "aly/syncthing/lavaridge/cert.age".publicKeys = keys;
+  "aly/syncthing/lavaridge/key.age".publicKeys = keys;
   "aly/syncthing/lilycove/cert.age".publicKeys = keys;
   "aly/syncthing/lilycove/key.age".publicKeys = keys;
   "aly/syncthing/mauville/cert.age".publicKeys = keys;
