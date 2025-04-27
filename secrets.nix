@@ -30,6 +30,7 @@ let
   userKeys = builtins.map (user: builtins.readFile ./publicKeys/${user}.pub) users;
   keys = systemKeys ++ userKeys;
 in {
+  "act-runner.age".publicKeys = keys;
   "aly/aws.age".publicKeys = keys;
   "aly/mail/gmail.age".publicKeys = keys;
   "aly/mail/fastmail.age".publicKeys = keys;
