@@ -57,6 +57,7 @@ in {
   "aly/syncthing/sootopolis/key.age".publicKeys = keys;
   "aly/transmission-remote.age".publicKeys = keys;
   "cloudflare.age".publicKeys = keys;
+  "deluge.age".publicKeys = keys;
   "homepage.age".publicKeys = keys;
   "k3s.age".publicKeys = keys;
   "lastfm/api.age".publicKeys = keys;
