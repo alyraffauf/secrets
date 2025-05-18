@@ -5,6 +5,7 @@ let
     "lavaridge"
     "lilycove"
     "mauville"
+    "mossdeep"
     "petalburg"
     "roxanne"
     "rustboro"
