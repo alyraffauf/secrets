@@ -1,0 +1,20 @@
+name: build-flake
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+on:
+  push:
+    paths:
+      - "flake.nix"
+      - "flake.lock"
+  workflow_dispatch:
+jobs:
+  build-devShell:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@main
+        with:
+          fetch-depth: 1
+      - uses: DeterminateSystems/nix-installer-action@main
+      - name: Build devShell
+        run: nix build --accept-flake-config .#devShells.x86_64-linux.default
