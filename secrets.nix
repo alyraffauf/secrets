@@ -59,6 +59,11 @@ in {
   "aly/transmission-remote.age".publicKeys = keys;
   "cloudflare.age".publicKeys = keys;
   "deluge.age".publicKeys = keys;
+  "forgejo/from.age".publicKeys = keys;
+  "forgejo/passwd.age".publicKeys = keys;
+  "forgejo/protocol.age".publicKeys = keys;
+  "forgejo/smtp_addr.age".publicKeys = keys;
+  "forgejo/user.age".publicKeys = keys;
   "homepage.age".publicKeys = keys;
   "k3s.age".publicKeys = keys;
   "lastfm/api.age".publicKeys = keys;
