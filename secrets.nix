@@ -32,11 +32,11 @@ let
   keys = systemKeys ++ userKeys;
 in {
   "act-runner.age".publicKeys = keys;
-  "aly/aws.age".publicKeys = keys;
-  "aly/halloy.age".publicKeys = keys;
-  "aly/mail/gmail.age".publicKeys = keys;
-  "aly/mail/fastmail.age".publicKeys = keys;
-  "aly/rclone/icloud.age".publicKeys = keys;
+  "aly/aws.age".publicKeys = userKeys;
+  "aly/halloy.age".publicKeys = userKeys;
+  "aly/mail/gmail.age".publicKeys = userKeys;
+  "aly/mail/fastmail.age".publicKeys = userKeys;
+  "aly/rclone/icloud.age".publicKeys = userKeys;
   "aly/syncthing/fallarbor/cert.age".publicKeys = keys;
   "aly/syncthing/fortree/key.age".publicKeys = keys;
   "aly/syncthing/fortree/cert.age".publicKeys = keys;
@@ -57,15 +57,12 @@ in {
   "aly/syncthing/slateport/key.age".publicKeys = keys;
   "aly/syncthing/sootopolis/cert.age".publicKeys = keys;
   "aly/syncthing/sootopolis/key.age".publicKeys = keys;
-  "aly/transmission-remote.age".publicKeys = keys;
   "cloudflare.age".publicKeys = keys;
-  "deluge.age".publicKeys = keys;
   "forgejo/from.age".publicKeys = keys;
   "forgejo/passwd.age".publicKeys = keys;
   "forgejo/protocol.age".publicKeys = keys;
   "forgejo/smtp_addr.age".publicKeys = keys;
   "forgejo/user.age".publicKeys = keys;
-  "homepage.age".publicKeys = keys;
   "k3s.age".publicKeys = keys;
   "lastfm/api.age".publicKeys = keys;
   "lastfm/secret.age".publicKeys = keys;
@@ -78,7 +75,6 @@ in {
   "spotify/client-secret.age".publicKeys = keys;
   "tailscale/auth.age".publicKeys = keys;
   "tailscale/caddyAuth.age".publicKeys = keys;
-  "transmission.age".publicKeys = keys;
   "vaultwarden.age".publicKeys = keys;
   "wifi.age".publicKeys = keys;
 }
