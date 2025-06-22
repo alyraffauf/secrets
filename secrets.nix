@@ -57,6 +57,11 @@ in {
   "aly/syncthing/slateport/key.age".publicKeys = keys;
   "aly/syncthing/sootopolis/cert.age".publicKeys = keys;
   "aly/syncthing/sootopolis/key.age".publicKeys = keys;
+  "arr/bazarrApiKey.age".publicKeys = keys;
+  "arr/lidarrApiKey.age".publicKeys = keys;
+  "arr/prowlarrApiKey.age".publicKeys = keys;
+  "arr/radarrApiKey.age".publicKeys = keys;
+  "arr/sonarrApiKey.age".publicKeys = keys;
   "cloudflare.age".publicKeys = keys;
   "forgejo/from.age".publicKeys = keys;
   "forgejo/passwd.age".publicKeys = keys;
