@@ -64,6 +64,8 @@ in {
   "arr/radarrApiKey.age".publicKeys = keys;
   "arr/sonarrApiKey.age".publicKeys = keys;
   "cloudflare.age".publicKeys = keys;
+  "forgejo/b2Id.age".publicKeys = keys;
+  "forgejo/b2Key.age".publicKeys = keys;
   "forgejo/from.age".publicKeys = keys;
   "forgejo/passwd.age".publicKeys = keys;
   "forgejo/protocol.age".publicKeys = keys;
