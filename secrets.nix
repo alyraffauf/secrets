@@ -1,5 +1,6 @@
 let
   hosts = [
+    "dewford"
     "evergrande"
     "fallarbor"
     "fortree"
