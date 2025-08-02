@@ -73,6 +73,7 @@ in {
   "forgejo/smtp_addr.age".publicKeys = keys;
   "forgejo/user.age".publicKeys = keys;
   "k3s.age".publicKeys = keys;
+  "karakeep.age".publicKeys = keys;
   "lastfm/api.age".publicKeys = keys;
   "lastfm/secret.age".publicKeys = keys;
   "postgresql/forgejo.age".publicKeys = keys;
