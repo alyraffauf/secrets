@@ -8,6 +8,7 @@ let
     "lilycove"
     "mauville"
     "mossdeep"
+    "pacifidlog"
     "petalburg"
     "roxanne"
     "rustboro"
