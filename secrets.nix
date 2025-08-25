@@ -22,6 +22,7 @@ let
     "aly_lavaridge"
     "aly_lilycove"
     "aly_mauville"
+    "aly_pacifidlog"
     "aly_petalburg"
     "aly_roxanne"
     "aly_rustboro"
