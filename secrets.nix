@@ -80,6 +80,7 @@ in {
   "karakeep.age".publicKeys = keys;
   "lastfm/api.age".publicKeys = keys;
   "lastfm/secret.age".publicKeys = keys;
+  "navidrome.age".publicKeys = keys;
   "postgresql/forgejo.age".publicKeys = keys;
   "pds.age".publicKeys = keys;
   "rclone/b2.age".publicKeys = keys;
