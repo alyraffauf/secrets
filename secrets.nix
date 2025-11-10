@@ -1,13 +1,13 @@
 let
   hosts = [
-    "dewford"
-    "evergrande"
+    "snowpoint"
+    "celestic"
     "fallarbor"
     "fortree"
-    "lavaridge"
-    "lilycove"
-    "mauville"
-    "mossdeep"
+    "oreburgh"
+    "jubilife"
+    "eterna"
+    "solaceon"
     "pacifidlog"
     "petalburg"
     "roxanne"
@@ -20,9 +20,9 @@ let
     "aly_fallarbor"
     "aly_fortree"
     "aly_kyogre"
-    "aly_lavaridge"
-    "aly_lilycove"
-    "aly_mauville"
+    "aly_oreburgh"
+    "aly_jubilife"
+    "aly_eterna"
     "aly_pacifidlog"
     "aly_petalburg"
     "aly_roxanne"
@@ -45,12 +45,12 @@ in {
   "aly/syncthing/fortree/key.age".publicKeys = keys;
   "aly/syncthing/fortree/cert.age".publicKeys = keys;
   "aly/syncthing/fallarbor/key.age".publicKeys = keys;
-  "aly/syncthing/lavaridge/cert.age".publicKeys = keys;
-  "aly/syncthing/lavaridge/key.age".publicKeys = keys;
-  "aly/syncthing/lilycove/cert.age".publicKeys = keys;
-  "aly/syncthing/lilycove/key.age".publicKeys = keys;
-  "aly/syncthing/mauville/cert.age".publicKeys = keys;
-  "aly/syncthing/mauville/key.age".publicKeys = keys;
+  "aly/syncthing/oreburgh/cert.age".publicKeys = keys;
+  "aly/syncthing/oreburgh/key.age".publicKeys = keys;
+  "aly/syncthing/jubilife/cert.age".publicKeys = keys;
+  "aly/syncthing/jubilife/key.age".publicKeys = keys;
+  "aly/syncthing/eterna/cert.age".publicKeys = keys;
+  "aly/syncthing/eterna/key.age".publicKeys = keys;
   "aly/syncthing/pacifidlog/cert.age".publicKeys = keys;
   "aly/syncthing/pacifidlog/key.age".publicKeys = keys;
   "aly/syncthing/petalburg/cert.age".publicKeys = keys;
