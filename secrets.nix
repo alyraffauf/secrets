@@ -83,6 +83,7 @@ in {
   "navidrome.age".publicKeys = keys;
   "postgresql/forgejo.age".publicKeys = keys;
   "pds.age".publicKeys = keys;
+  "photoprism.age".publicKeys = keys;
   "rclone/b2.age".publicKeys = keys;
   "restic-password.age".publicKeys = keys;
   "slskd.age".publicKeys = keys;
