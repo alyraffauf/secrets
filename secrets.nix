@@ -59,6 +59,8 @@ in {
   "aly/syncthing/rustboro/key.age".publicKeys = keys;
   "aly/syncthing/slateport/cert.age".publicKeys = keys;
   "aly/syncthing/slateport/key.age".publicKeys = keys;
+  "aly/syncthing/snowpoint/cert.age".publicKeys = keys;
+  "aly/syncthing/snowpoint/key.age".publicKeys = keys;
   "aly/syncthing/sootopolis/cert.age".publicKeys = keys;
   "aly/syncthing/sootopolis/key.age".publicKeys = keys;
   "arr/bazarrApiKey.age".publicKeys = keys;
