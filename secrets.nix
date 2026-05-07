@@ -70,6 +70,10 @@ in {
   "arr/sonarrApiKey.age".publicKeys = keys;
   "b2/account.age".publicKeys = keys;
   "b2/key.age".publicKeys = keys;
+  "aly-codes-tls.crt.age".publicKeys = keys;
+  "aly-codes-tls.key.age".publicKeys = keys;
+  "aly-social-tls.crt.age".publicKeys = keys;
+  "aly-social-tls.key.age".publicKeys = keys;
   "cloudflare.age".publicKeys = keys;
   "cute-haus-tls.crt.age".publicKeys = keys;
   "cute-haus-tls.key.age".publicKeys = keys;
