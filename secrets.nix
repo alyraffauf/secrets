@@ -77,6 +77,8 @@ in {
   "cloudflare.age".publicKeys = keys;
   "cute-haus-tls.crt.age".publicKeys = keys;
   "cute-haus-tls.key.age".publicKeys = keys;
+  "morsels-blue-tls.crt.age".publicKeys = keys;
+  "morsels-blue-tls.key.age".publicKeys = keys;
   "forgejo/b2Id.age".publicKeys = keys;
   "forgejo/b2Key.age".publicKeys = keys;
   "forgejo/from.age".publicKeys = keys;
