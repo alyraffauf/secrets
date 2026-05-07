@@ -71,6 +71,8 @@ in {
   "b2/account.age".publicKeys = keys;
   "b2/key.age".publicKeys = keys;
   "cloudflare.age".publicKeys = keys;
+  "cute-haus-tls.crt.age".publicKeys = keys;
+  "cute-haus-tls.key.age".publicKeys = keys;
   "forgejo/b2Id.age".publicKeys = keys;
   "forgejo/b2Key.age".publicKeys = keys;
   "forgejo/from.age".publicKeys = keys;
